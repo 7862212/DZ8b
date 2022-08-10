@@ -1,0 +1,107 @@
+@import "_reset.scss";
+
+body {
+	height: 100%;
+	line-height: 1;
+	font-size: 14px;
+	color: #000000;
+	font-weight: 500;
+	font-family: sans-serif;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	
+}
+
+.header {}
+
+.main {}
+
+.container {
+	max-width: 980px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: content-box;
+}
+
+.maket-abc {
+
+	// .maket-abc__container
+	&__container {}
+
+	// .maket-abc__menu
+	&__menu {}
+
+	// .maket-abc__text
+
+	&__text {
+		text-align: justify;
+		padding: 20px;
+	}
+
+	// .maket-abc__pic
+	&__pic {
+		padding: 20px;
+		display: flex;
+		align-items: end;
+		justify-content: space-evenly;
+		position: relative;
+		height: 330px;
+	}
+}
+
+.pic {
+
+	// .pic__biohazard
+	&__biohazard {
+		max-width: 200px;
+		width: 100%;
+		position: absolute;
+		margin-left: -200px;
+		top: 20px;
+	}
+
+	&__biohazard:hover {
+		z-index: 2;
+	}
+
+	// .pic__man-and-woman
+	&__man-and-woman {
+		max-width: 200px;
+		width: 100%;
+		position: absolute;
+		margin-left: 200px;
+		top: 20px;
+	}
+
+	&__man-and-woman:hover {
+		z-index: 2;
+	}
+
+	// .pic__smoking
+	&__smoking {
+		max-width: 200px;
+			width: 100%;
+			position: absolute;
+			top: 40px;
+			z-index: 1;
+	}
+
+	// .pic__yin-and-yang
+	&__yin-and-yang {
+		max-width: 200px;
+			width: 100%;
+			position: absolute;
+			top: 123px;
+	}
+
+	&__yin-and-yang:hover {
+		z-index: 2;
+	}
+}
+
+
+.footer {}
