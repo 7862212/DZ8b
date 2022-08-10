@@ -36,7 +36,6 @@ body {
 	&__menu {}
 
 	// .maket-abc__text
-
 	&__text {
 		text-align: justify;
 		padding: 20px;
@@ -44,12 +43,11 @@ body {
 
 	// .maket-abc__pic
 	&__pic {
-		padding: 20px;
 		display: flex;
-		align-items: end;
-		justify-content: space-evenly;
+		align-items: flex-end;
+		justify-content: center;
 		position: relative;
-		height: 330px;
+		height: 420px;
 	}
 }
 
@@ -57,51 +55,58 @@ body {
 
 	// .pic__biohazard
 	&__biohazard {
-		max-width: 200px;
+		background: url(../img/biohazard.png) center no-repeat;
+		max-width: 220px;
 		width: 100%;
+		height: 220px;
+		margin-left: -215px;
 		position: absolute;
-		margin-left: -200px;
-		top: 20px;
+		top: 0px;
 	}
 
-	&__biohazard:hover {
+	&__biohazard:hover{
 		z-index: 2;
 	}
 
 	// .pic__man-and-woman
 	&__man-and-woman {
-		max-width: 200px;
+		background: url(../img/Man-and-woman.png) center no-repeat;
+		max-width: 220px;
 		width: 100%;
+		height: 220px;
+		margin-left: 226px;
 		position: absolute;
-		margin-left: 200px;
-		top: 20px;
+		top: 0px;
 	}
 
 	&__man-and-woman:hover {
-		z-index: 2;
+			z-index: 2;
 	}
 
-	// .pic__smoking
-	&__smoking {
-		max-width: 200px;
-			width: 100%;
-			position: absolute;
-			top: 40px;
-			z-index: 1;
+	// .pic__no-smoking
+	&__no-smoking {
+		background: url(../img/No_smoking.png) center no-repeat;
+		max-width: 257px;
+		width: 100%;
+		height: 250px;
+		position: absolute;
+		top: 60px;
+		z-index: 1;
 	}
 
 	// .pic__yin-and-yang
 	&__yin-and-yang {
-		max-width: 200px;
-			width: 100%;
-			position: absolute;
-			top: 123px;
+		background: url(../img/Yin_and_Yang.png) center no-repeat;
+		max-width: 220px;
+		width: 100%;
+		height: 220px;
+		position: absolute;
+		top: 180px;
 	}
 
 	&__yin-and-yang:hover {
 		z-index: 2;
 	}
 }
-
 
 .footer {}
